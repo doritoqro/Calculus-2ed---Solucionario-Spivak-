@@ -5,7 +5,7 @@ El documento principal es el fichero main.tex, aquí es donde se encuentra defin
 
 Cada capítulo tiene su fichero correspondiente en donde se realiza el desgloce del contenido.
 
-Los incisos de los ejercicios se deben definir como una entrada de lista numerada.
+Los incisos de los ejercicios se deben definir como una entrada de lista numerada. Se utiliza el paquete enumitem para la edición manual de esta.
 Cada inciso adicionalmente lleva el comentario de cuál es número correspondiente en Spivak para su ubicación visual en el código.
 
 Para el desarrollo de las demostraciones tiene los siguientes requisitos:
