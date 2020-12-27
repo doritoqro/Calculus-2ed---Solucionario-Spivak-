@@ -1,7 +1,7 @@
 # Calculus-2ed---Solucionario-Spivak-
 Solucionario del libro de Cálculo segunda edición de Spivak.
 
-El documento principal es el fichero main.tex, aquí es donde se encuentra definido el preámbulo del libro y donde se unen los 29 capítulos del libro.
+El documento principal es el fichero main.tex, aquí es donde se encuentra definido el preámbulo del libro y donde se unen los 29 capítulos del mismo.
 
 Cada capítulo tiene su fichero correspondiente en donde se realiza el desgloce del contenido.
 
