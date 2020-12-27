@@ -8,7 +8,7 @@ Cada capítulo tiene su fichero correspondiente en donde se realiza el desgloce 
 Los incisos de los ejercicios se deben definir como una entrada de lista numerada. Se utiliza el paquete enumitem para la edición manual de esta.
 Cada inciso adicionalmente lleva el comentario de cuál es número correspondiente en Spivak para su ubicación visual en el código.
 
-Para el desarrollo de las demostraciones tiene los siguientes requisitos:
+Para el desarrollo de las demostraciones se tienen los siguientes requisitos:
 a) la proposición a demostrar debe estar perfectamente especificada, tanto en redaccioń como en forma simbólica;
 b) debe especificarse el método de demostración.
 c) debe justificarse cada paso de la argumentación usando las deficiones, axiomas, teoremas, lemas y corolarios desarrollados por Spivak o, desarrollar los propios.
