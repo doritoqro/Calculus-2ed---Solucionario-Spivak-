@@ -3,7 +3,7 @@ Solucionario del libro de Cálculo segunda edición de Spivak.
 
 El documento principal es el fichero main.tex, aquí es donde se encuentra definido el preámbulo del libro y donde se unen los 29 capítulos del mismo.
 
-Cada capítulo tiene su fichero correspondiente en donde se realiza el desgloce del contenido.
+Cada capítulo tiene su fichero correspondiente en donde se realiza el desarrollo del contenido.
 
 Los incisos de los ejercicios se deben definir como una entrada de lista numerada. Se utiliza el paquete enumitem para la edición manual de esta.
 Cada inciso adicionalmente lleva el comentario de cuál es número correspondiente en Spivak para su ubicación visual en el código.
