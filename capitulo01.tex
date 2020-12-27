@@ -1,0 +1,264 @@
+\chapter{Propiedades básicas de los números}
+
+\begin{enumerate}
+    % --- Ejercicio 1 ---
+    \item Demostrar lo siguiente:
+    \begin{enumerate}[label=\roman*.]
+        % --- Inciso i ---
+        \item Si $ ax = a $ para algún número $ a \neq 0 $, entonces $ x = 1 $. \\
+        \solucion \\
+        Transformando el enunciado original podemos establecer que la proposición a demostrar queda como sigue: si $a$ es un número real diferente de cero y $ax=a$ esto implica que $x=1$. En forma simbólica:
+        \begin{displaymath}
+            \left( a \in \mathbb{R}-\{ 0 \} \wedge ax = a \right) \ \longrightarrow \ x = 1
+        \end{displaymath}
+        Procediendo a la demostración de forma directa. Sea $ a $ un número real diferente de cero y
+        \begin{displaymath}
+            ax = a
+        \end{displaymath}
+        proposición que consideramos verdadera por hipótesis. Aplicando la propiedad de monotonía de la igualdad, multiplicando por $ a^{-1} $ en ambos lados
+        \begin{displaymath}
+            (ax)a^{-1} = a a^{-1}
+        \end{displaymath}
+        Aplicando la propiedad conmutativa y asociativa en el multiplicación
+        \begin{displaymath}
+            x(a a^{-1}) = a a^{-1}
+        \end{displaymath}
+        Aplicando la propiedad de la existencia del inverso multiplicativo
+        \begin{displaymath}
+            x(1) = 1
+        \end{displaymath}
+        Finalmente, aplicando la propiedad de la existencia del neutro multiplicativo
+        \begin{displaymath}
+            x = 1 \qed
+        \end{displaymath}
+        
+        % --- Inciso ii ---
+        \item $ x^2 - y^2 = (x-y)(x+y) $. \\
+        \solucion \\
+        Transformando el enunciado original podemos establecer que la proposición a demostrar queda como sigue: si $x$ y $y$ son dos número reales cualesquiera entonces se cumple que $ x^2 - y^2 = (x-y)(x+y) $. En forma simbólica:
+        \begin{displaymath}
+            x,y \in \mathbb{R} \ \longrightarrow \ x^2 - y^2 = (x-y)(x+y)
+        \end{displaymath}
+        Procediendo a la demostración de forma directa. Sean $x$ y $y$ números arbitrarios reales, proposición que asumimos verdadera por hipótesis. Por la propiedad reflexiva de la igualdad podemos decir que
+        \begin{displaymath}
+            (x-y)(x+y) = (x-y)(x+y)
+        \end{displaymath}
+        Trabajando sobre el lado derecho de la igualdad, aplicando la ley distributiva
+        \begin{displaymath}
+            (x-y)(x+y) = x(x-y) + y(x-y)
+        \end{displaymath}
+        Aplicando nuevamente la ley distributiva
+        \begin{displaymath}
+            (x-y)(x+y) = x^2 - xy + xy - y^2
+        \end{displaymath}
+        Aplicando la ley conmutativa y ley asociativa para la suma tenemos que
+        \begin{displaymath}
+            (x-y)(x+y) = (x^2 - y^2) + (xy-xy)
+        \end{displaymath}
+        Por el axioma de la existencia del inverso para la suma
+        \begin{displaymath}
+            (x-y)(x+y) = (x^2 - y^2) + 0
+        \end{displaymath}
+        Por el axioma de la existencia del elemento neutro para la suma
+        \begin{displaymath}
+            (x-y)(x+y) = x^2 - y^2
+        \end{displaymath}
+        Finalmente, por la propiedad de simetría de la igualdad
+        \begin{displaymath}
+            x^2 - y^2 = (x-y)(x+y) \qed
+        \end{displaymath}
+        
+        % --- Inciso iii ---
+        \item Si $ x^2 = y^2 $, entonces $ x = y $ o $ x = -y $. \\
+        \solucion: \\
+        
+        % --- Inciso iv ---
+        \item $ x^3 - y^3 = (x-y)(x^2 + xy + y^2  $. \\
+        \solucion: \\
+        
+        % --- Inciso v ---
+        \item $ x^n - y^n = (x-y)(x^{n-1} + x^{n-2}y + \cdots + xy^{n-2} + y^{n-1} ) $. \\
+        \solucion: \\
+        
+        % --- Inciso vi ---
+        \item $ x^3 + y^3 = (x+y)(x^2 - xy + y^2) $. (Hay una manera particularmente fácil de hacer esto utilizando (IV) y esto hará ver una descomposición en factores de $ x^n + y^n $ cuando $ n $ es impar). \\
+        \solucion: \\
+    \end{enumerate}
+    
+    % --- Ejercicio 2 ---
+    \item ¿Dónde está el fallo en la siguiente <<demostración>>? Sea $ x = y $. Entonces
+    \begin{align*}
+        x^2 & = xy, \\
+        x^2 - y^2 & = xy - y^2, \\
+        (x+y)(x-y) & = y(x-y), \\
+        x + y & = y, \\
+        2y & = y, \\
+        2 & = 1.
+    \end{align*}
+    \solucion: \\
+    
+    % --- Ejercicio 3 ---
+    \item Demostrar lo siguiente:
+    \begin{enumerate}[label=\roman*.]
+        % --- Inciso i ---
+        \item $ \displaystyle \frac{a}{b} = \frac{ac}{bc} $, si $b,c \neq 0$. \\
+        \solucion: \\
+        
+        % --- Inciso ii ---
+        \item $ \displaystyle \frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd} $, si $b,d \neq 0$. \\
+        \solucion: \\
+        
+        % --- Inciso iii ---
+        \item $ \displaystyle (ab)^{-1} = a^{-1} b^{-1} $, si $a,b \neq 0$. (Para hacer esto hace falta tener presente cómo se ha definido $(ab)^{-1}$.) \\
+        \solucion: \\
+        
+        % --- Inciso iv ---
+        \item $ \displaystyle \frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{db} $, si $b,d \neq 0$. \\
+        \solucion: \\
+        
+        % --- Inciso v ---
+        \item $ \displaystyle \frac{\frac{a}{b}}{\frac{c}{d}} = \frac{ad}{bc} $, si $b, c, d \neq 0$. \\
+        \solucion: \\
+        
+        % --- Inciso vi ---
+        \item Si $b,d \neq 0$, entonces $ \displaystyle \frac{a}{b} = \frac{c}{d}$ si y sólo si $ ad = bc $. Determinar también cuando es $ \displaystyle \frac{a}{b} = \frac{b}{a} $. \\
+        \solucion: \\
+        
+    \end{enumerate}
+    
+    % --- Ejercicio 4 ---
+    \item Encontrar todos los números $x$ para los que
+    \begin{enumerate}[label=\roman*.]
+        % --- Inciso i ---
+        \item $ 4-x < 3 - 2x $. \\
+        \solucion: \\
+        
+        % --- Inciso ii ---
+        \item $ 5 - x^2 < 8 $. \\
+        \solucion: \\
+        
+        % --- Inciso iiii ---
+        \item $ 5 - x^2 < -2 $. \\
+        \solucion: \\
+        
+        % --- Inciso iv ---
+        \item $ (x-1)(x-3) > 0  $. (¿Cuándo es positivo un producto de dos números?). \\
+        \solucion: \\
+        
+        % --- Inciso v ---
+        \item $ x^2 - 2x + 2 > 0 $. \\
+        \solucion: \\
+        
+        % --- Inciso vi ---
+        \item $ x^2 + x + 1 > 2 $. \\
+        \solucion: \\
+        
+        % --- Inciso vii ---
+        \item $ x^2 - x + 10 > 16  $. \\
+        \solucion: \\
+        
+        % --- Inciso viii ---
+        \item $ x^2 + x + 1 > 0 $. \\
+        \solucion: \\
+        
+        % --- Inciso ix ---
+        \item $ (x - \pi)(x + 5)(x - 3) > 0 $. \\
+        \solucion: \\
+        
+        % --- Inciso x ---
+        \item $ (x - \sqrt[3]{2})(x-\sqrt{2}) > 0 $. \\
+        \solucion: \\
+        
+        % --- Inciso xi ---
+        \item $ 2^x < 8 $. \\
+        \solucion: \\
+        
+        % --- Inciso xii ---
+        \item $ x + 3^x < 4 $. \\
+        \solucion: \\
+        
+        % --- Inciso xiii ---
+        \item $ \frac{1}{x} + \frac{1}{1-x} > 0 $. \\
+        \solucion: \\
+        
+        % --- Inciso xiv ---
+        \item $ \frac{x-1}{x+1} > 0 $. \\
+        \solucion: \\
+        
+    \end{enumerate}
+    
+    % Ejercicio 5
+    \item Demostrar lo siguiente:
+    \begin{enumerate}[label=\roman*]
+        % Inciso --- i ---
+        \item Si $ a < b $ y $ c < d $, entonces $ a + c < b + d $. \\
+        \solucion: \\
+        
+        %  Inciso --- ii ---
+        \item Si $ a < b $, entonces $ -b < -a $.  \\
+        \solucion: \\
+        
+        %  Inciso --- iii ---
+        \item Si $ a < b $ y $ c > d $, entonces $ a - c < b - d $. \\
+        \solucion: \\
+        
+        %  Inciso --- iv ---
+        \item Si $ a < b $ y $ c > 0 $, entonces $ ac < bc $. \\
+        \solucion: \\
+        
+        %  Inciso --- v ---
+        \item Si $ a < b $ y $ c < 0  $, entonces $ ac > bc $. \\
+        \solucion: \\
+        
+        %  Inciso --- vi ---
+        \item Si $ a > 1 $, entonces $a^2 > a $. \\
+        \solucion: \\
+        
+        %  Inciso --- vii ---
+        \item Si $ 0 < a < 1 $, entonces $ a^2 < a $. \\
+        \solucion: \\
+        
+        %  Inciso --- xviii ---
+        \item Si $ 0 \leq a < b $ y $ 0 \leq c < d $, entonces $ ac < bd $. \\
+        \solucion: \\
+        
+        %  Inciso --- ix ---
+        \item Si $ 0 \leq a < b $, entonces $ a^2 < b^2 $. (Utilícese (xviii).)  \\
+        \solucion: \\
+        
+        %  Inciso --- x ---
+        \item Si $ a, b \geq 0 $ y $ a^2 < b^2 $, entonces $ a < b $. (Utilícese (ix), hacia atrás.) \\
+        \solucion: \\
+        
+    \end{enumerate}
+    
+    % --- Ejercicio 6 ---
+    \item
+    \begin{enumerate}
+        % Inciso --- a ---
+        \item Demostrar que si $ 0 \leq x < y $, entonces $ x^n < y^n $. \\
+        \solucion: \\
+        
+        % Inciso --- b ---
+        \item Demostrar que si $ x < y $ y $ n $ es impar, entonces $ x^n < y^n $. \\
+        \solucion: \\
+        
+        %  Inciso --- c ---
+        \item Demostrar que si $ x^n = y^n $ y $ n $ es impar, entonces $ x = y $. \\
+        \solucion: \\
+        
+        %  Inciso --- d ---
+        \item Demostrar que si $ x^n = y^n $ y $ n $ es par, entonces $ x = y $ o $ x = -y $. \\
+        \solucion: \\
+        
+    \end{enumerate}
+    
+    %  Inciso --- 7 ---
+    \item Demostrar que si $ 0 < a < b $, entonces 
+    \begin{displaymath}
+        a < \sqrt{ab} < \frac{a+b}{2} < b.
+    \end{displaymath}
+    Nótese que la desigualdad $ \sqrt{ab} \leq (a+b)/2 $ se cumple para $ a,b \geq 0 $, sin la suposición adicional $ a < b $. Una generalización de este hecho se presenta en el problema 2-22. \\
+    \solucion: \\
+    
+\end{enumerate}
