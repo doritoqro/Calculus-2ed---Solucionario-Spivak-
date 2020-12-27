@@ -13,7 +13,7 @@ a) la proposición a demostrar debe estar perfectamente especificada, tanto en r
 b) debe especificarse el método de demostración.
 c) debe justificarse cada paso de la argumentación usando las deficiones, axiomas, teoremas, lemas y corolarios desarrollados por Spivak o, desarrollar los propios.
 
-Como existen varias caminos para realizar una demostración no se limita a que solo exista una respuesta por inciso, pueden coexistir varias respuestas.
+Como existen varias caminos para realizar una demostración no se limita a que solo exista una respuesta por inciso, pueden coexistir varias respuestas, siempre que se tenga claridad en cada uno de los desarrollos.
 
 Atte.
 Comunidad de estudiantes de la Universidad Abierta y a Distancia de México de la licenciatura en matemáticas.
